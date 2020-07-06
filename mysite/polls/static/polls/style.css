@@ -1,6 +1,15 @@
-li a {
+li, a {
     color: green;
+    font-size: 200%;
 }
 body {
-    background: white url("images/background.jpg") no-repeat right bottom;
+    background: white url("images/background.jpg");
+    background-size: cover;
+    /*overflow: scroll;  --> jest od horizontall bar*/
+    height: 200%;
+}
+p, h1 {
+    color: blue;
+    font-size: 150%;
+
 }
